@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,0.12) 0 1px, transparent 2px),
+    radial-gradient(circle at 80% 30%, rgba(255,255,255,0.1) 0 1px, transparent 2px),
+    radial-gradient(circle at 30% 70%, rgba(255,255,255,0.08) 0 1px, transparent 2px),
+    radial-gradient(circle at center, #0b1020 0%, #050814 50%, #02040a 100%);
+  background-size: 220px 220px, 260px 260px, 320px 320px, cover;
+  color: #f8fafc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.solar-ui {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  padding: 12px 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+  background: rgba(6, 10, 24, 0.7);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.solar-ui h1 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.solar-ui p {
+  margin: 0;
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+.space {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sun {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 88px;
+  height: 88px;
+  margin-left: -44px;
+  margin-top: -44px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fff7bf 0%, #ffd54a 35%, #ff9f1a 70%, #ff7b00 100%);
+  box-shadow: 0 0 30px #ffb703, 0 0 80px rgba(255, 166, 0, 0.5);
+  z-index: 3;
+}
+
+.orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.planet-system {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  transform-origin: center;
+  animation: spin linear infinite;
+}
+
+.planet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  box-shadow: inset -4px -4px 10px rgba(0,0,0,0.28), 0 0 12px rgba(255,255,255,0.08);
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 11px;
+  color: #e2e8f0;
+  white-space: nowrap;
+  transform: translateY(-50%);
+  opacity: 0.9;
+}
+
+.mercury { background: #a8a29e; }
+.venus { background: #d6a45f; }
+.earth { background: #3b82f6; }
+.mars { background: #c2410c; }
+.jupiter { background: #d4a373; }
+.saturn { background: #d8c087; }
+.uranus { background: #7dd3fc; }
+.neptune { background: #2563eb; }
+
+.saturn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 26px;
+  height: 8px;
+  margin-left: -13px;
+  margin-top: -4px;
+  border: 2px solid rgba(234, 220, 180, 0.8);
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 700px) {
+  .solar-ui h1 {
+    font-size: 16px;
+  }
+
+  .solar-ui p {
+    font-size: 12px;
+    max-width: 220px;
+  }
+}
