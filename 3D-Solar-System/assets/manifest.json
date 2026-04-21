@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "asset_id": "1c9cb115-8e1a-49f0-a92d-5db6d95b350d",
+      "name": "solar-system.mp4",
+      "zip_path": "assets/solar-system.mp4"
+    },
+    {
+      "asset_id": "cb46b5f6-c6a4-40d2-af29-0c191eac6ac2",
+      "name": "sunmap.jpg",
+      "zip_path": "assets/sunmap.jpg"
+    },
+    {
+      "asset_id": "b57a0b58-b9fa-4502-a2db-d5ce5a49db98",
+      "name": "mercurymapthumb.jpg",
+      "zip_path": "assets/mercurymapthumb.jpg"
+    },
+    {
+      "asset_id": "a026215e-8153-4e40-b042-24ab4e454401",
+      "name": "mercurybumpthumb.jpg",
+      "zip_path": "assets/mercurybumpthumb.jpg"
+    },
+    {
+      "asset_id": "5d1654ff-5e42-4d57-aa76-1c4c9a9a6d8a",
+      "name": "venusmapthumb.jpg",
+      "zip_path": "assets/venusmapthumb.jpg"
+    },
+    {
+      "asset_id": "e0371857-5e32-407c-af30-c11d6063214e",
+      "name": "venusbumpthumb.jpg",
+      "zip_path": "assets/venusbumpthumb.jpg"
+    },
+    {
+      "asset_id": "a47c3b51-a351-4f18-b557-8034d627877c",
+      "name": "earthmapthumb.jpg",
+      "zip_path": "assets/earthmapthumb.jpg"
+    },
+    {
+      "asset_id": "279abced-fbe2-4874-818d-a131f96192d0",
+      "name": "earthbumpthumb.jpg",
+      "zip_path": "assets/earthbumpthumb.jpg"
+    },
+    {
+      "asset_id": "83545a26-5df5-4acf-a744-21f82c330197",
+      "name": "mars_thumbnail.jpg",
+      "zip_path": "assets/mars_thumbnail.jpg"
+    },
+    {
+      "asset_id": "9dfaeca1-899d-4359-afde-48c53a7bf0e9",
+      "name": "mars_normal_thumbnail.jpg",
+      "zip_path": "assets/mars_normal_thumbnail.jpg"
+    },
+    {
+      "asset_id": "73b73ef1-0974-47c1-a668-7a9956798c95",
+      "name": "mars_topo_thumbnail.jpg",
+      "zip_path": "assets/mars_topo_thumbnail.jpg"
+    },
+    {
+      "asset_id": "38430d24-faab-44a1-8a62-d279d7c0f1a8",
+      "name": "marsmapthumb.jpg",
+      "zip_path": "assets/marsmapthumb.jpg"
+    },
+    {
+      "asset_id": "6a8a3feb-08c0-45a8-add3-5524b2086c3c",
+      "name": "marsbumpthumb.jpg",
+      "zip_path": "assets/marsbumpthumb.jpg"
+    },
+    {
+      "asset_id": "c37b2045-30df-4b9b-91e8-6acac14421f8",
+      "name": "phobosbump.jpg",
+      "zip_path": "assets/phobosbump.jpg"
+    },
+    {
+      "asset_id": "5f137612-6a41-4476-a759-083d1677b4ce",
+      "name": "jupitermapthumb.jpg",
+      "zip_path": "assets/jupitermapthumb.jpg"
+    },
+    {
+      "asset_id": "fdf5a4fb-bc4c-4f6f-9043-8a8241bc56a7",
+      "name": "jupiter2colorthumb.jpg",
+      "zip_path": "assets/jupiter2colorthumb.jpg"
+    },
+    {
+      "asset_id": "22f848c1-8309-4e71-b8f8-3d047085547e",
+      "name": "neptunemapthumb.jpg",
+      "zip_path": "assets/neptunemapthumb.jpg"
+    },
+    {
+      "asset_id": "8321424e-0ce1-4ee0-8c16-31d0da188a5e",
+      "name": "plutomapthumb.jpg",
+      "zip_path": "assets/plutomapthumb.jpg"
+    },
+    {
+      "asset_id": "cf0d7d7e-4d0f-4e62-9d80-49ea142e3d87",
+      "name": "saturnmapthumb.jpg",
+      "zip_path": "assets/saturnmapthumb.jpg"
+    },
+    {
+      "asset_id": "f4db4bed-5a06-4a3b-82f5-ce3a6756517e",
+      "name": "plutobumpthumb.jpg",
+      "zip_path": "assets/plutobumpthumb.jpg"
+    },
+    {
+      "asset_id": "7f6ce3e1-a4ae-4d57-a9fa-f57a9d715d03",
+      "name": "saturnringcolorthumb.jpg",
+      "zip_path": "assets/saturnringcolorthumb.jpg"
+    },
+    {
+      "asset_id": "28d2cef6-00d4-4e74-81da-bf6d452445ff",
+      "name": "uranusmapthumb.jpg",
+      "zip_path": "assets/uranusmapthumb.jpg"
+    },
+    {
+      "asset_id": "4f8f6c0a-e26a-43db-ab4d-6ccd4e40337d",
+      "name": "uranusringcolour.jpg",
+      "zip_path": "assets/uranusringcolour.jpg"
+    },
+    {
+      "asset_id": "f8e78ca0-5b25-435b-a97e-142f3f8e46c2",
+      "name": "Hd.mp4",
+      "zip_path": "assets/Hd.mp4"
+    }
+  ]
+}
